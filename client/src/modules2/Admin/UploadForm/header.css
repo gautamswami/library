@@ -1,0 +1,45 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.9vw;
+  line-height: 35px;
+  text-align: center;
+}
+.headerdiv {
+  border: 1px solid red;
+  height: 98px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logodiv {
+  margin-left: 65px;
+}
+.navdiv ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.navdiv ul li {
+  margin-right: 65px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  * {
+    color: red;
+  }
+  .navdiv ul li {
+    margin-right: 38px;
+  }
+  .logodiv {
+    margin-left: 38px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  * {
+    color: green;
+  }
+}

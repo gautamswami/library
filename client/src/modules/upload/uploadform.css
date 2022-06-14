@@ -1,0 +1,5 @@
+.test{
+    background: linear-gradient(315.48deg, #FFF7F5 10.75%, #FCF9F8 23.87%, #F5FDFF 74.45%);
+mix-blend-mode: normal;
+backdrop-filter: blur(50px);
+}
